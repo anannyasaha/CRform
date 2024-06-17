@@ -1,28 +1,35 @@
-#root{
-  max-width:1280px;
-  margin:0 auto;
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-label{
-  font-weight:bold;
-  display:flex;
-  margin-bottom:5px;
+
+label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
 
 }
-input[type="text"],
-input[type="email"],
-input[type="number"],
-input[type="data"]{
-  display:block;
-  width:400px;
-  padding:6px 12px;
-  font-size:14px;
-  line-height:1.42857143;
-  color:#fff;
-  background-image: none;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 20px;
 
+input {
+  border: 2px solid rgb(98, 0, 255);
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 3px solid rgb(98, 0, 255);
+}
+
+.progressbar {
+  width: 1270px;
+  height: 10px;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.progressbar div {
+  width: 16.6%;
+  height: 100%;
+  background-color: rgb(98, 0, 255);
 }
